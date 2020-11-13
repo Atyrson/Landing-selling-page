@@ -1,0 +1,54 @@
+@media (max-width: 723px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+        height: 120px;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #header-img {
+        
+    }
+
+    .container {
+        padding-top: 120px;
+    }
+    
+
+    #nav-bar {
+        all: initial;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    } 
+
+    #nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav-link {
+        padding-top: 3px;
+    }
+
+    /**/
+
+    .price-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont {
+        padding-top: 50px;
+    }
+
+    .price {
+        margin-bottom: 10px;
+    }
+}
